@@ -26,6 +26,25 @@ img.pro-pic{width: 40px;}
 .why-logos{width: 24px;}
 .htitle{ont-size: 40px;font-family: Widescreen-Mixed-XBold,sans-serif;}
 
+.text > p > div {
+	font-family: DM Sans,sans-serif;
+  background: linear-gradient(
+    to right,
+    rgb(0, 0, 0) 50%,
+    rgb(221, 221, 221) 50%
+  );
+  background-size: 200% 100%;
+  background-position-x: 100%;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  /*   margin-bottom: -250px; */
+  margin-left: 50px;
+  line-height: 1.5;
+  /*   outline: 6px dotted teal; */
+  font-size: 36px;
+}
+
 @media (min-width: 320px) and (max-width: 767px){
 	body{font-size: 14px;}
 	.ctitle{font-size: 30px;}
